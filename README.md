@@ -49,20 +49,25 @@ By default, some fields that may be interesting (_Layoutfullname_ for example) a
 <br/><br/>
 6 Set Up >> App Manager >> *YourApp* >> Manage >> Edit policies 
 <br/><br/>
-In **Client Credentials Flow Section**, you will have to set ab user than is *API enabled* and have a full permissions on *Twz_loc_c* object. 
+In **Client Credentials Flow Section**, you will have to set a System Administrator. 
 <br/><br/>
 <img width="500" alt="image" src="https://github.com/2gezercorp/2GezerAdvancedLogger/assets/113261345/d27931f3-6e74-4a8f-9e7c-4b1e1bb1b498">
 <br/><br/>
 
+### Assign the "twogezerAdvancedLogger" Permission Set to your System Adminstrator set for using the previously created Connected App 
+
+![image](https://github.com/2gezercorp/2GezerAdvancedLogger_Install/assets/113261345/745db401-e005-4402-9131-b09c27e357fe)
+
+
+### Add the tab 'twogezerAdvancedLogger" to your home menu to access to the corresponding VisualForcePage
+
+![image](https://github.com/2gezercorp/2GezerAdvancedLogger_Install/assets/113261345/37ca8e21-5abb-4a2a-9e6e-877c606fa3cd)
+
 ### Set the custom setting
 
-A custom setting named *twogz_credential* is already provided in the package 
+A Protected custom setting named is already provided in the package. The Visualforce included in the package is here to configurate it.
 <br/><br/>
-<img width="500" alt="image" src="https://github.com/2gezercorp/2GezerAdvancedLogger/assets/113261345/257e059c-5c23-4090-89cf-0cea63c65bc5">
-
-1 Click on **Twogs_credential** >> Manage >> Defaut Organization Level Value >> New
-<br/><br/>
-<img width="500" alt="image" src="https://github.com/2gezercorp/2GezerAdvancedLogger/assets/113261345/578d3143-621e-49ea-986e-a37b631330f4">
+![image](https://github.com/2gezercorp/2GezerAdvancedLogger_Install/assets/113261345/972ac502-cb2b-45ab-9f3c-7d5e1f8b928c)
 
 Populate the fields *client_id* and *client_secret* respectivly with the *consumer key* and the *consumer secret* obtained earlier.
 
